@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "learn nodejs basic",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvt9200/NodejsBasic.git"
+  },
+  "author": "Huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvt9200/NodejsBasic/issues"
+  },
+  "homepage": "https://github.com/nvt9200/NodejsBasic#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
